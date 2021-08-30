@@ -1,0 +1,21 @@
+/* 2F5D62 5E8B7E A7C4BC DFEEEA*/
+
+body {
+    background-color: #DFEEEA;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #2F5D62;
+    border-width: 5px;
+    width: 10%;
+}
+
+h1, h3 {
+    color: #2F5D62;
+}
+
+img {
+    background-color: #DFEEEA;
+}
