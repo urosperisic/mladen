@@ -1,21 +1,30 @@
 /* 2F5D62 5E8B7E A7C4BC DFEEEA*/
 
 body {
-    background-color: #DFEEEA;
+  background-color: #dfeeea;
 }
 
 hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #2F5D62;
-    border-width: 5px;
-    width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #2f5d62;
+  border-width: 5px;
+  width: 10%;
 }
 
-h1, h3 {
-    color: #2F5D62;
+h1,
+h3 {
+  color: #2f5d62;
 }
 
 img {
-    background-color: #DFEEEA;
+  background-color: #dfeeea;
+}
+
+.p1:hover {
+  background-color: #a7c4bc;
+}
+
+.first {
+  color: #2f5d62;
 }
