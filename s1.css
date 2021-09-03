@@ -1,7 +1,7 @@
-/* 2F5D62 5E8B7E A7C4BC DFEEEA*/
+/* 2F5D62 5E8B7E  DFEEEA*/
 
 body {
-  background-color: #dfeeea;
+  background-color: A7C4BC#dfeeea;
 }
 
 hr {
@@ -9,7 +9,7 @@ hr {
   border-top-style: dotted;
   border-color: #2f5d62;
   border-width: 5px;
-  width: 10%;
+  width: 50%;
 }
 
 h1,
@@ -27,4 +27,54 @@ img {
 
 .first {
   color: #2f5d62;
+}
+
+.prvi01 {
+  margin: auto;
+  width: 40%;
+  border: 3px #2f5d62;
+  padding: 10px;
+}
+
+.prva02 {
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #2f5d62;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0% {
+    background-color: #2f5d62;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #5e8b7e;
+    left: 50px;
+    top: 0px;
+  }
+  50% {
+    background-color: #a7c4bc;
+    left: 50px;
+    top: 50px;
+  }
+  75% {
+    background-color: #dfeeea;
+    left: 0px;
+    top: 50px;
+  }
+  100% {
+    background-color: #2f5d62;
+    left: 0px;
+    top: 0px;
+  }
 }
