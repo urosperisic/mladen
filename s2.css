@@ -52,3 +52,8 @@ h3 {
   right: 350px;
   top: 50px;
 }
+
+.keyboard {
+  width: 50%;
+  height: auto;
+}
