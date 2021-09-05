@@ -42,7 +42,7 @@ h3 {
   width: auto;
   position: absolute;
   left: 350px;
-  bottom: 150px;
+  bottom: 100px;
 }
 
 .top-cloud {
@@ -51,9 +51,4 @@ h3 {
   position: absolute;
   right: 350px;
   top: 50px;
-}
-
-.keyboard {
-  width: 50%;
-  height: auto;
 }
